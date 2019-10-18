@@ -8,3 +8,5 @@
 [exapmle02](src/main/java/com/abosen/netty/example02): 客户端和服务端循环发送消息的demo
 
 [exapmle03](src/main/java/com/abosen/netty/example03): 多客户端连接，上下线通知，广播消息
+
+[exapmle04](src/main/java/com/abosen/netty/example04): 空闲事件检测
