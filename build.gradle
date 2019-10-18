@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group 'com.abosen'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'io.netty:netty-all:4.1.42.Final'
+    compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.10'
+    implementation group: 'org.slf4j', name: 'slf4j-api', version: '1.7.28'
+    implementation group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
+    implementation group: 'ch.qos.logback', name: 'logback-core', version: '1.2.3'
+    testImplementation group: 'junit', name: 'junit', version: '4.12'
+}
