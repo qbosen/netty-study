@@ -1,16 +1,18 @@
-package com.abosen.netty.firstexample;
+package com.abosen.netty.example01;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
-import io.netty.channel.socket.nio.NioSocketChannel;
+import lombok.extern.slf4j.Slf4j;
 
 /**
  * @author qiubaisen
  * @date 2019-10-17
  */
+
+@Slf4j
 public class TestServer {
     public static void main(String[] args) {
         // 接收连接，不做处理，转给worker，worker进行真正的业务处理
@@ -24,7 +26,7 @@ public class TestServer {
             ChannelFuture channelFuture = serverBootstrap.bind(8899).sync();
             channelFuture.channel().closeFuture().sync();
         } catch (InterruptedException e) {
-            e.printStackTrace();
+            log.error(e.getMessage(), e);
         } finally {
             bossGroup.shutdownGracefully();
             workerGroup.shutdownGracefully();

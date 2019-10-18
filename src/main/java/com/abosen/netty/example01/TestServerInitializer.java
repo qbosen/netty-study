@@ -1,4 +1,4 @@
-package com.abosen.netty.firstexample;
+package com.abosen.netty.example01;
 
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
