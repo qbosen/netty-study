@@ -14,3 +14,5 @@
 [exapmle05](src/main/java/com/abosen/netty/example05): 基于websocket长连接的消息发送
 
 [exapmle06](src/main/java/com/abosen/netty/example06): 在netty中使用protobuf发送消息
+
+[exapmle06_2](src/main/java/com/abosen/netty/example06_2): 在netty中通过protobuf实现多协议消息
