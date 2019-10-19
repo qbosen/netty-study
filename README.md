@@ -10,3 +10,5 @@
 [exapmle03](src/main/java/com/abosen/netty/example03): 多客户端连接，上下线通知，广播消息
 
 [exapmle04](src/main/java/com/abosen/netty/example04): 空闲事件检测
+
+[exapmle05](src/main/java/com/abosen/netty/example05): 基于websocket长连接的消息发送
