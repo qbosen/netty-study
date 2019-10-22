@@ -16,3 +16,5 @@
 [exapmle06](src/main/java/com/abosen/netty/example06): 在netty中使用protobuf发送消息
 
 [exapmle06_2](src/main/java/com/abosen/netty/example06_2): 在netty中通过protobuf实现多协议消息
+
+[exapmle07](src/main/java/com/abosen/netty/example07): 在netty使用grpc实现基于proto3的C/S间rpc调用
