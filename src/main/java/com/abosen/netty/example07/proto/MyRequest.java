@@ -76,13 +76,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return com.abosen.netty.example07.proto.StudentProto.internal_static_com_abosen_protobuf_MyRequest_descriptor;
+    return StudentProto.internal_static_com_abosen_protobuf_MyRequest_descriptor;
   }
 
   @Override
   protected FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return com.abosen.netty.example07.proto.StudentProto.internal_static_com_abosen_protobuf_MyRequest_fieldAccessorTable
+    return StudentProto.internal_static_com_abosen_protobuf_MyRequest_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             MyRequest.class, Builder.class);
   }
@@ -283,16 +283,16 @@ private static final long serialVersionUID = 0L;
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
       // @@protoc_insertion_point(builder_implements:com.abosen.protobuf.MyRequest)
-      com.abosen.netty.example07.proto.MyRequestOrBuilder {
+      MyRequestOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.abosen.netty.example07.proto.StudentProto.internal_static_com_abosen_protobuf_MyRequest_descriptor;
+      return StudentProto.internal_static_com_abosen_protobuf_MyRequest_descriptor;
     }
 
     @Override
     protected FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.abosen.netty.example07.proto.StudentProto.internal_static_com_abosen_protobuf_MyRequest_fieldAccessorTable
+      return StudentProto.internal_static_com_abosen_protobuf_MyRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               MyRequest.class, Builder.class);
     }
@@ -323,7 +323,7 @@ private static final long serialVersionUID = 0L;
     @Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return com.abosen.netty.example07.proto.StudentProto.internal_static_com_abosen_protobuf_MyRequest_descriptor;
+      return StudentProto.internal_static_com_abosen_protobuf_MyRequest_descriptor;
     }
 
     @Override
